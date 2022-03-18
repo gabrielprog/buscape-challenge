@@ -1,0 +1,66 @@
+{
+    "items": [
+        {
+            "product": {
+                "id": 2321312,
+                "name": "Smartphone Apple iPhone 7 128GB",
+                "images": [
+                    "https://i.zst.com.br/thumbs/12/4/34/-13675178.jpg",
+                    "https://i.zst.com.br/thumbs/12/b/16/1384127069.jpg",
+                    "https://i.zst.com.br/thumbs/12/33/36/1385611748.jpg",
+                    "https://i.zst.com.br/thumbs/12/24/17/1385612161.jpg"
+                ],
+                "price": {
+                    "value": 3509.10,
+                    "installments": 10,
+                    "installmentValue": 389.90
+                }
+            }
+        },
+        {
+            "product": {
+                "id": 9971,
+                "name": "Smart TV Samsung Série 4 UN32J4300AG 32 polegadas LED Plana",
+                "images": [
+                    "https://i.zst.com.br/thumbs/12/10/37/1379128947.jpg",
+                    "https://i.zst.com.br/thumbs/12/16/33/1971586738.jpg"
+                ],
+                "price": {
+                    "value": 1139.90,
+                    "installments": 10,
+                    "installmentValue": 134.11
+                }
+            }
+        },
+        {
+            "product": {
+                "id": 6717131,
+                "name": "Câmera Digital Canon EOS Rebel T5i 18.0 Megapixels",
+                "images": [
+                    "https://i.zst.com.br/thumbs/12/17/33/1971586838.jpg",
+                    "https://i.zst.com.br/thumbs/12/24/14/1971587057.jpg"   
+                ],
+                "price": {
+                    "value": 1999.20,
+                    "installments": 10,
+                    "installmentValue": 235.20
+                }
+            }
+        },
+        {
+            "product": {
+                "id": 6717131,
+                "name": "Lenovo IdeaPad 310 80UH0004BR Intel Core i7-6500U 2.5 GHz 8192 MB 1024 GB",
+                "images": [
+                    "https://i.zst.com.br/thumbs/12/28/14/1971587404.jpg",
+                    "https://i.zst.com.br/thumbs/12/3e/14/1971587523.jpg"
+                ],
+                "price": {
+                    "value": 2599.00,
+                    "installments": 10,
+                    "installmentValue": 259.90
+                }
+            }
+        }
+    ]
+}

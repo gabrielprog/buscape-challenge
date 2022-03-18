@@ -1,0 +1,58 @@
+.product--cart {
+	position: relative;
+
+	display: flex;
+
+	background:rgba(255, 196, 0, 0.5);
+	gap: 10px;
+	padding: 2%;
+
+	margin: 1% 0;
+}
+
+.product--cart > svg {
+	position: absolute;
+
+	top: 5px;
+	right: 2px;
+
+	cursor: pointer;
+}
+
+.cart--image {
+	width: 50px;
+	height: 50px;
+}
+
+.cart--image > img {
+	width: 100%;
+	height: 100%;
+}
+
+.cart--details {
+	display: flex;
+	flex-direction: column;
+}
+
+.cart--details > span {
+	font-size: 12px;
+	margin: 2px 0;
+}
+
+.cart--details > span:first-child {
+	color: white;
+	font-weight: bold;
+}
+
+.product--total {
+	display: flex;
+	flex-direction: column;
+}
+
+.product--total > span {
+	font-size: 14px;
+
+	margin: 2px 0;
+
+	text-align: right;
+}
