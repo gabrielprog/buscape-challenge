@@ -21,15 +21,35 @@ function Product({
 	const handleAddToCart = () => {
 		
 		if(cart.length >= 99) return
+		
+		if(cart.length === 0) {
+			console.log(1)
+			setCart([...cart, { 
+				images, 
+				uuid,
+				title,
+				price,
+				installments,
+				installmentValue
+			}])
+		}else {
 
-		setCart([...cart, { 
-			images, 
-			uuid,
-			title,
-			price,
-			installments,
-			installmentValue
-		}])
+			const checkProductCart = cart.findIndex(
+				elem => elem.uuid === uuid
+			)
+
+			if(checkProductCart > -1) return
+
+			setCart([...cart, { 
+				images, 
+				uuid,
+				title,
+				price,
+				installments,
+				installmentValue
+			}])
+		}
+		
 	}
 
 	const handleChangeImage = (event) => {
